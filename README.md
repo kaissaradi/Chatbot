@@ -3,7 +3,7 @@
 Welcome to the GROQ Chatbot project! This chatbot uses the GROQ API to provide responses to user queries. It's a simple, stylish, and responsive web application with dark mode support! 🌟
 
 ## 🚀 Live Demo
-Check out the live demo on GitHub Pages: [GROQ Chatbot](https://github.com/kaissaradi/Chatbot/deployments/github-pages)
+Check out the live demo on GitHub Pages: [GROQ Chatbot](https://kaissaradi.github.io/Chatbot/)
 
 ## 📋 Table of Contents
 - [Features](#features)

@@ -56,7 +56,7 @@ function addMessageToChat(role, content) {
 async function handleSendMessage() {
     const userInput = document.getElementById('user-input');
     const message = userInput.value.trim();
-    
+
     if (message) {
         addMessageToChat('user', message);
         chatHistory.push({ role: "user", content: message });
@@ -88,9 +88,9 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!apiKey) {
         promptForApiKey();
     }
-    
+
     document.getElementById('send-button').addEventListener('click', handleSendMessage);
-    
+
     document.getElementById('user-input').addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
             handleSendMessage();
